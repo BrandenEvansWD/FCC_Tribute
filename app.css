@@ -1,0 +1,139 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(212,77,77);
+background: linear-gradient(180deg, rgba(212,77,77,1) 0%, rgba(120,32,32,1) 100%);
+}
+
+#main {
+    padding: 3em 2em 2em 2em;
+}
+
+h1 {
+    font-size: 4em;
+    border-bottom: 3px solid red;
+    margin: 15px 0 0 0;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 3.3em;
+    border-bottom: 3px solid red;
+    margin: 15px 0 0 0;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.7em;
+    color: rgb(173, 173, 173);
+    margin: 15px 0 0 0;
+    font-weight: 400;
+}
+
+h3:nth-last-of-type(2) {
+    margin-top: 2em;
+}
+
+h3:nth-last-of-type() {
+    margin-top: 2em;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+#main div {
+    border-radius: 10px;
+    background: white;
+    padding: 1em 15px;
+    box-shadow: 6px 6px 20px black;
+    margin-bottom: 3em;
+}
+
+ol {
+    font-size: 2em;
+}
+
+#title {
+ text-align: center;
+}
+
+#sub {
+    font-size: 2.5em;
+    color: rgb(173, 173, 173);
+    margin: 0 0;
+    padding: 0 0;
+}
+
+@media(min-width: 762px) {
+    #main {
+        padding: 3em 3em;
+        margin: 3em 6%;
+    }
+    h1 {
+        font-size: 6em;
+    }
+    h2 {
+        font-size: 4.2em;
+    }
+    h3 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 2em;
+    }
+    #sub {
+        font-size: 2.8em;
+    }
+}
+
+#img-div {
+    margin: 20px auto;
+    display: table;
+}
+
+#image {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+   font-size: 1.8em;
+   text-align: center;
+   margin: 0 auto;
+   background-color: rgb(173, 173, 173);
+   margin: 0 0 0 0;
+}
+
+/* #tribute-info {
+
+} */
+
+#seasons p {
+font-size: 2.4em;
+}
+
+#learn-more {
+    text-align: center;
+}
+
+#tribute-link {
+    border: 2px solid red;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    padding: 10px 35px;
+    text-decoration: none;
+    margin-bottom: 1em;
+    transition: background-color 200ms ease-in-out;
+    font-size: 2em;
+}
+
+#tribute-link:hover, #tribute-link:focus {
+    background-color: rgb(173, 173, 173);
+}
